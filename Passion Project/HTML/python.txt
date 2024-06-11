@@ -1,0 +1,20 @@
+# May 29, 2020
+import paramiko
+
+serverip = "YOUR SERVER IP"
+sshport = "SERVERS SSH PORT (usually 22)"
+
+sshusername = "root"
+sshpassword = ("ROOT PASSWORD") 
+
+sshcommand = 'YOUR COMMAND (In our case: apt update ; apt -y upgrade ; apt -y install nginx)'
+
+p = paramiko.SSHClient()
+p.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+p.connect(serverip, port=sshport, username=sshusername, password=sshpassword)
+stdin, stdout, stderr = p.exec_command(sshcommand)
+opt = stdout.readlines()
+opt = "".join(opt)
+print(opt)
+
+print("DONE")

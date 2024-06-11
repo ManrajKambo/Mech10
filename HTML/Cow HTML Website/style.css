@@ -1,0 +1,44 @@
+/* Feb 27, 2020 */
+body,html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+  background-image: url("https://wallpaperset.com/w/full/7/c/d/188868.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image2 {
+  background-image: url("https://images.wallpaperscraft.com/image/grass_lawn_green_121322_1920x1080.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 1.5em;
+}

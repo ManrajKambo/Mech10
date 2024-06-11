@@ -1,0 +1,60 @@
+/* May 29, 2020 */
+body {
+  background-image: url(background.png);
+  color: #000000;
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+hr {
+  border: 2px solid #beb9be;
+}
+
+small {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+embed { 
+  background: #beb9be; 
+  border: 3px solid #beb9be;
+}
+
+.link {
+  color: #0d64e7;
+}
+
+.link2 {
+  color: #ffffff;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffff;
+  background-color: rgb(26, 115, 199);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  background-color: #1d65c4;
+}
+
+button:active {
+  background-color: #2463b6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

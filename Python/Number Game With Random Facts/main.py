@@ -1,3 +1,4 @@
+# Dec 20, 2019
 import random
 
 # Start of random facts
